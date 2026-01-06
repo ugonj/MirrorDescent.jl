@@ -1,9 +1,13 @@
 name = "MirrorDescent"
 uuid = "e905d4db-6995-442a-90fc-5a160a9e6d8e"
-authors = ["Julien Ugon <julien.ugon@deakin.edu.au>"]
 version = "1.0.0-DEV"
+authors = ["Julien Ugon <julien.ugon@deakin.edu.au>"]
+
+[deps]
+Infinities = "e1ba4f0e-776d-440f-acd9-e1d2e9742647"
 
 [compat]
+Infinities = "0.1.12"
 julia = "1.10.10"
 
 [extras]
