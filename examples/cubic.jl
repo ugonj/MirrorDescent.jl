@@ -86,10 +86,10 @@ end
 md"## Bregman divergence"
 
 # ╔═╡ ac0f8225-6cab-4ce3-a2b8-507ca2eaadee
-@latexrun  @abstract Cubic Φ(x) = 3.0/4*x^4 
+@abstract Cubic Φ(x) = 3.0/4*x^4 
 
 # ╔═╡ e255c3c6-b5d1-4b9e-a49a-3e0521e002ef
-@latexrun ∂Φ(x) = Cubic(x,0)
+∂Φ(x) = Cubic(x,0)
 
 # ╔═╡ 72a997ce-d342-472b-a292-81adbb49175a
 begin
@@ -218,7 +218,7 @@ DataFrame(data,[:x₀, :c, :x₁₀₀, :kˢ])
 # ╠═06447d55-548f-47c1-859e-b858089bcc5b
 # ╠═277b9265-93d4-4bfb-b201-7bd4cacfe87e
 # ╠═7f3e95c6-eda5-4355-ab9c-f74e7affe8df
-# ╠═93495fdd-9cd2-4ff7-8bb4-d60f22c41cbb
+# ╟─93495fdd-9cd2-4ff7-8bb4-d60f22c41cbb
 # ╟─e05cb1e5-67a6-43aa-a5e1-5feee5d04ce7
 # ╟─34ec0804-4915-434c-ab3a-df60b7249241
 # ╠═f5e25ac2-835d-4de9-98da-117c43ad8579
